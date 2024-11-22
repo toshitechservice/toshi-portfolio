@@ -455,11 +455,11 @@ CONTACT
 .last-message {
   background-color: #f9c270;
   color: white;
-  height: 400px;
+  height: 250px;
 }
 
 .last-message p {
-  line-height: 400px;
+  line-height: 250px;
   font-size: 4rem;
   font-weight: bold;
   text-align: center;
@@ -642,6 +642,21 @@ footer p {
   }
 
 
+  /* =====================
+  WORKS
+  =====================*/
+  #works {
+    padding: 80px 0 100px 0;
+  }
+
+  .works-list {
+    display: block;
+  }
+
+  .works-list li {
+    margin-top: 20px;
+  }
+
 
   /* =====================
   スキル
@@ -656,6 +671,45 @@ footer p {
   }
 
 
+  /* =====================
+  ABOUT
+  =====================*/
+  .about-wrap {
+    display: block;
+    padding-top: 40px;
+  }
+
+  .about-img {
+    width: 100%;
+    margin-right: 20px;
+    text-align: center;
+  }
+
+  .about-img > img {
+    width: 200px;
+    border-radius: 20px;
+    box-shadow: 0 0 12px gray;
+    margin-bottom: 36px;
+  }
+
+  .about-info {
+    width: 100%;
+    line-height: 30px;
+  }
+
+  /* =====================
+  フッター前
+  =====================*/
+  .last-message {
+    height: 180px;
+  }
+
+  .last-message p {
+    line-height: 180px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+  }
 
   /* =====================
   フッター
