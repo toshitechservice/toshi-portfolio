@@ -618,6 +618,10 @@ footer p {
 
 
 @media screen and (max-width:768px) {
+  .body {
+    overflow-x: hidden;
+  }
+
   .container {
     width: 90%;
   }
@@ -697,6 +701,31 @@ footer p {
     line-height: 30px;
   }
 
+
+  /* =====================
+  CONTACT
+  =====================*/
+  #contact iframe {
+    display: block;
+  }
+
+  .form-wrap {
+    display: block;
+    margin: 40px 0;
+  }
+
+  .form-wrap h3 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .form-btn {
+    width: 100%;
+    text-align: center;
+    margin-top: 12px;
+  }
+
+
   /* =====================
   フッター前
   =====================*/
@@ -711,6 +740,7 @@ footer p {
     text-align: center;
   }
 
+
   /* =====================
   フッター
   =====================*/
@@ -718,7 +748,6 @@ footer p {
     position: relative;
     font-size: 0.9rem;
   }
-
 
 
   /* =====================
